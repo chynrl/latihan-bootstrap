@@ -1,0 +1,69 @@
+/* overriding bootstrap style */
+@import "./content-style.css";
+
+:root{
+    --navbar-height: 56px;
+    --footer-height: 72px;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #b0bbd4;
+}
+
+.custom-bs-navbar{
+    background: white;
+    min-height: var(--navbar-height);
+}
+.my-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: var(--footer-height);
+    background:#e9dd70;
+    padding: 24px 24px;
+    
+}
+.my-footer address{
+    color: white;
+    margin: auto;
+}
+.content-section{
+    min-height: calc(100% - var(--navbar-height) - var(--footer-height));
+}
+.card-body{
+    padding : 50px
+}
+.card{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.carousel{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.carousel-item > .img-gallery{
+    object-fit: contain;
+    height: 400px;
+
+    
+}
+.gallery .image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    object-position: top;
+    border-radius: 6px;
+}
+.square{
+    height: 200px;
+    overflow: hidden;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buat Artikelt</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg custom-bs-navbar sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nurul Cahyani</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Tentang Saya</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Gallery.html">Galeri</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog Saya
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="./list.html">Daftar Artikel</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./form.html">Buat Artikel</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <div class="content-section">
+      <div class="container py-3">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div col-12>
+                <h1>Create new post</h1>
+              </div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Title</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Blog description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3 form-check-inline">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Food</label>
+              </div>
+              <div class="mb-3 form-check-inline">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Drink</label>
+              </div>
+            </div>
+
+              <button type="submit" class="btn btn-primary">Save</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="my-footer">
+      <marquee>
+        <address>&copy; 2024 NC - All right reserved</address>
+      </marquee>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

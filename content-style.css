@@ -1,0 +1,68 @@
+/* .img-wrap{
+    height: 150px;
+    width: 150px;
+
+}
+.img-wrap > img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+
+} */
+/* CARA 2   */
+.avatar{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.social-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+@media (max-width: 991px){
+    .social-list{
+        flex-direction: column;
+    }
+}
+.social-list > .social-item > a{
+    border: 1px solid gray;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+}
+.social-list > .social-item > a > i{
+    margin-right: 8px;
+}
+.social-list > .social-item:first-child > a{
+    background: hsl(221.59deg 37.29% 46.27%);
+    color: white;
+}
+.social-list > .social-item:nth-child(2) > a {
+    background: linear-gradient(32deg, hsl(31.55deg 99.21% 50.39%), hsl(354.19deg 100% 55.49%), hsl(311.47deg 99.21% 49.61%));
+    color: white;
+}
+.social-list > .social-item:last-child > a{
+    color: hsl(200.77deg 100% 30.59%);
+}
+.experience-item{
+    font-size: smaller;
+}
+.skill-item{
+    font-size: smaller;
+}
+/* CARA 3 */
+/* .avatar-div{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
